@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1083378141, guid: dcd2196c4e9166f499793f2007fcda35, type: 3}
+  m_Name: Game_States
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"title":"GameController_StateMachine","summary":null,"pan":{"x":123.0,"y":-52.0},"zoom":1.0,"elements":[{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Main
+      Menu","summary":null,"pan":{"x":216.821,"y":287.9026},"zoom":0.9,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-379.0,"y":1.0},"guid":"9fd7b3d0-c2ac-48f9-8c9f-511e275a52d9","$version":"A","$type":"Bolt.OnEnterState","$id":"13"},{"kind":"Application","defaultValues":{"name":{"$content":"Game_Controller","$type":"System.String"}},"position":{"x":-119.0,"y":2.0},"guid":"895d4e93-2a03-4b54-9798-e443f6cff6f8","$version":"A","$type":"Bolt.SetVariable","$id":"15"},{"defaultValues":{},"position":{"x":-317.0,"y":122.0},"guid":"7e3ee4fa-254e-4aaa-96f0-831bb8015725","$version":"A","$type":"Bolt.Self","$id":"17"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"assign","guid":"5ba125b5-3020-44f1-b210-0d36ea199c51","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"self","destinationUnit":{"$ref":"15"},"destinationKey":"input","guid":"2f007455-0b2c-45ec-bc7f-943fb5339405","$type":"Bolt.ValueConnection"}],"$version":"A"}},"isStart":false,"position":{"x":-290.0,"y":-238.0},"width":170.0,"guid":"03ccd080-6873-49ec-b9d0-14c6fdafa503","$version":"A","$type":"Bolt.FlowState"},{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Selecting
+      Abilities","summary":null,"pan":{"x":146.0,"y":-100.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-254.0,"y":-239.0},"guid":"c4846131-671c-4e90-be5a-ab097c63fd41","$version":"A","$type":"Bolt.OnEnterState","$id":"31"},{"coroutine":false,"defaultValues":{},"position":{"x":-217.0,"y":-119.0},"guid":"1e7efd07-fc53-4b4a-ab88-61b7018e24df","$version":"A","$type":"Bolt.Update"},{"kind":"Application","defaultValues":{"name":{"$content":"GameController","$type":"System.String"}},"position":{"x":222.0,"y":-450.0},"guid":"134fb80b-903e-4bf5-b366-e6a2e18ba35e","$version":"A","$type":"Bolt.SetVariable","$id":"35"},{"defaultValues":{},"position":{"x":24.0,"y":-330.0},"guid":"efaf220b-0bd1-4911-8d97-3806624c9912","$version":"A","$type":"Bolt.Self","$id":"37"},{"sourceUnit":{"$ref":"31"},"sourceKey":"trigger","destinationUnit":{"$ref":"35"},"destinationKey":"assign","guid":"f1b03f20-77ea-4962-892c-8d8aeb0cda22","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"37"},"sourceKey":"self","destinationUnit":{"$ref":"35"},"destinationKey":"input","guid":"b3c4e01a-22e5-4a03-8f1f-d0576f5691a6","$type":"Bolt.ValueConnection"},{"position":{"xMin":-8.0,"yMin":-507.0,"xMax":457.0,"yMax":-223.0},"label":"Temp","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"01cd75a5-9918-4312-9f9c-9b1f43af3caf","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}},"isStart":true,"position":{"x":123.0,"y":-237.0},"width":170.0,"guid":"7fc07d31-5299-4cd4-98df-f596906422e2","$version":"A","$type":"Bolt.FlowState"}],"$version":"A"}}'
+    _objectReferences: []
