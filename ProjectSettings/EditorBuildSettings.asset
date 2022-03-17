@@ -6,6 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Test_Room_Scene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Alpha_Main_Menu_Scene.unity
+    guid: ca3055f0886098643a3c2c6f555b862f
+  - enabled: 1
+    path: Assets/Scenes/Loading_Scene.unity
+    guid: 32bc2a9beaf68f94580764f5a87992d5
+  - enabled: 1
+    path: Assets/Scenes/Ability_Selection_Scene.unity
+    guid: 8c809cc858fc95a4c8149937cf61655f
+  - enabled: 1
+    path: Assets/Scenes/Alpha_Levels/Alpha_Level_1_Scene.unity
+    guid: 2a292e0013a34eb4286347e179b7de88
+  - enabled: 1
+    path: Assets/Scenes/Alpha_Levels/Alpha_Level_1_StormFloor_Scene.unity
+    guid: 9b28c2166b6072945855cd9e447fa13c
   m_configObjects: {}

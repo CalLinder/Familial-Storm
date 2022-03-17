@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 8399861637109658406}
   - component: {fileID: 8399861637109658405}
   - component: {fileID: 8399861637109658404}
+  - component: {fileID: -2218317712306741019}
   m_Layer: 5
-  m_Name: Game_Controller
-  m_TagString: Untagged
+  m_Name: GameController
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Double_Jump_Ability_Order","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Dash_Ability_Order","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Wall_Sliding_Ability_Order","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Reload_Current_Scene","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Selecting_Abilities","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Reload_Current_Scene","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Ability_Selecting_Number","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"Ability1_Name","value":{"$content":"TEMP","$type":"System.String"},"$version":"A"},{"name":"Ability2_Name","value":{"$content":"TEMP","$type":"System.String"},"$version":"A"},{"name":"Ability3_Name","value":{"$content":"TEMP","$type":"System.String"},"$version":"A"},{"name":"Goto_Next_Scene","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Next_Scene_Index","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Abilitiy_Acquired_Number","value":{"$content":0,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &8399861637109658404
 MonoBehaviour:
@@ -63,3 +64,19 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 7fd1effd865218346a67190b411ee59e, type: 2}
+--- !u!114 &-2218317712306741019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8399861637109657819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1999370065, guid: dcd2196c4e9166f499793f2007fcda35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: fda6416d716832e45ae3d48caf2926ac, type: 2}
