@@ -243,22 +243,9 @@ namespace Ludiq.Generated.Aot
 	// UnityEngine.Cloth.op_Equality
 	// UnityEngine.Cloth.op_Implicit
 	// UnityEngine.Cloth.op_Inequality
-	// UnityEngine.Collider.attachedArticulationBody
-	// UnityEngine.Collider.attachedRigidbody
-	// UnityEngine.Collider.bounds
-	// UnityEngine.Collider.contactOffset
-	// UnityEngine.Collider.enabled
-	// UnityEngine.Collider.gameObject
-	// UnityEngine.Collider.hideFlags
-	// UnityEngine.Collider.isTrigger
-	// UnityEngine.Collider.material
-	// UnityEngine.Collider.name
 	// UnityEngine.Collider.op_Equality
 	// UnityEngine.Collider.op_Implicit
 	// UnityEngine.Collider.op_Inequality
-	// UnityEngine.Collider.sharedMaterial
-	// UnityEngine.Collider.tag
-	// UnityEngine.Collider.transform
 	// UnityEngine.Collider2D.op_Equality
 	// UnityEngine.Collider2D.op_Implicit
 	// UnityEngine.Collider2D.op_Inequality
@@ -571,6 +558,7 @@ namespace Ludiq.Generated.Aot
 	// UnityEngine.SpriteRenderer.op_Equality
 	// UnityEngine.SpriteRenderer.op_Implicit
 	// UnityEngine.SpriteRenderer.op_Inequality
+	// UnityEngine.SpriteRenderer.sprite
 	// UnityEngine.SurfaceEffector2D.op_Equality
 	// UnityEngine.SurfaceEffector2D.op_Implicit
 	// UnityEngine.SurfaceEffector2D.op_Inequality
@@ -622,6 +610,7 @@ namespace Ludiq.Generated.Aot
 	// UnityEngine.TrailRenderer.op_Equality
 	// UnityEngine.TrailRenderer.op_Implicit
 	// UnityEngine.TrailRenderer.op_Inequality
+	// UnityEngine.Transform.localPosition
 	// UnityEngine.Transform.localScale
 	// UnityEngine.Transform.op_Equality
 	// UnityEngine.Transform.op_Implicit
@@ -734,6 +723,7 @@ namespace Ludiq.Generated.Aot
 	// UnityEngine.Vector2.op_Subtraction
 	// UnityEngine.Vector2.op_UnaryNegation
 	// UnityEngine.Vector2.y
+	// UnityEngine.Vector3..ctor
 	// UnityEngine.Vector3..ctor
 	// UnityEngine.Vector3.back
 	// UnityEngine.Vector3.down
@@ -3484,118 +3474,6 @@ namespace Ludiq.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.Collider.attachedArticulationBody
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_Collider_attachedArticulationBody()
-		{
-			global::UnityEngine.Collider target = default(global::UnityEngine.Collider);
-			global::UnityEngine.ArticulationBody accessor = target.attachedArticulationBody;
-			global::Ludiq.InstancePropertyAccessor<UnityEngine.Collider, UnityEngine.ArticulationBody> optimized = new global::Ludiq.InstancePropertyAccessor<UnityEngine.Collider, UnityEngine.ArticulationBody>(default(global::System.Reflection.PropertyInfo));
-			optimized.GetValue(default(global::UnityEngine.Collider));
-		}
-		
-		// UnityEngine.Collider.attachedRigidbody
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_Collider_attachedRigidbody()
-		{
-			global::UnityEngine.Collider target = default(global::UnityEngine.Collider);
-			global::UnityEngine.Rigidbody accessor = target.attachedRigidbody;
-			global::Ludiq.InstancePropertyAccessor<UnityEngine.Collider, UnityEngine.Rigidbody> optimized = new global::Ludiq.InstancePropertyAccessor<UnityEngine.Collider, UnityEngine.Rigidbody>(default(global::System.Reflection.PropertyInfo));
-			optimized.GetValue(default(global::UnityEngine.Collider));
-		}
-		
-		// UnityEngine.Collider.bounds
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_Collider_bounds()
-		{
-			global::UnityEngine.Collider target = default(global::UnityEngine.Collider);
-			global::UnityEngine.Bounds accessor = target.bounds;
-			global::Ludiq.InstancePropertyAccessor<UnityEngine.Collider, UnityEngine.Bounds> optimized = new global::Ludiq.InstancePropertyAccessor<UnityEngine.Collider, UnityEngine.Bounds>(default(global::System.Reflection.PropertyInfo));
-			optimized.GetValue(default(global::UnityEngine.Collider));
-		}
-		
-		// UnityEngine.Collider.contactOffset
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_Collider_contactOffset()
-		{
-			global::UnityEngine.Collider target = default(global::UnityEngine.Collider);
-			float accessor = target.contactOffset;
-			target.contactOffset = default(float);
-			global::Ludiq.InstancePropertyAccessor<UnityEngine.Collider, float> optimized = new global::Ludiq.InstancePropertyAccessor<UnityEngine.Collider, float>(default(global::System.Reflection.PropertyInfo));
-			optimized.GetValue(default(global::UnityEngine.Collider));
-			optimized.SetValue(default(global::UnityEngine.Collider), default(float));
-		}
-		
-		// UnityEngine.Collider.enabled
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_Collider_enabled()
-		{
-			global::UnityEngine.Collider target = default(global::UnityEngine.Collider);
-			bool accessor = target.enabled;
-			target.enabled = default(bool);
-			global::Ludiq.InstancePropertyAccessor<UnityEngine.Collider, bool> optimized = new global::Ludiq.InstancePropertyAccessor<UnityEngine.Collider, bool>(default(global::System.Reflection.PropertyInfo));
-			optimized.GetValue(default(global::UnityEngine.Collider));
-			optimized.SetValue(default(global::UnityEngine.Collider), default(bool));
-		}
-		
-		// UnityEngine.Collider.gameObject
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_Collider_gameObject()
-		{
-			global::UnityEngine.Component target = default(global::UnityEngine.Component);
-			global::UnityEngine.GameObject accessor = target.gameObject;
-			global::Ludiq.InstancePropertyAccessor<UnityEngine.Component, UnityEngine.GameObject> optimized = new global::Ludiq.InstancePropertyAccessor<UnityEngine.Component, UnityEngine.GameObject>(default(global::System.Reflection.PropertyInfo));
-			optimized.GetValue(default(global::UnityEngine.Component));
-		}
-		
-		// UnityEngine.Collider.hideFlags
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_Collider_hideFlags()
-		{
-			global::UnityEngine.Object target = default(global::UnityEngine.Object);
-			global::UnityEngine.HideFlags accessor = target.hideFlags;
-			target.hideFlags = default(global::UnityEngine.HideFlags);
-			global::Ludiq.InstancePropertyAccessor<UnityEngine.Object, UnityEngine.HideFlags> optimized = new global::Ludiq.InstancePropertyAccessor<UnityEngine.Object, UnityEngine.HideFlags>(default(global::System.Reflection.PropertyInfo));
-			optimized.GetValue(default(global::UnityEngine.Object));
-			optimized.SetValue(default(global::UnityEngine.Object), default(global::UnityEngine.HideFlags));
-		}
-		
-		// UnityEngine.Collider.isTrigger
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_Collider_isTrigger()
-		{
-			global::UnityEngine.Collider target = default(global::UnityEngine.Collider);
-			bool accessor = target.isTrigger;
-			target.isTrigger = default(bool);
-			global::Ludiq.InstancePropertyAccessor<UnityEngine.Collider, bool> optimized = new global::Ludiq.InstancePropertyAccessor<UnityEngine.Collider, bool>(default(global::System.Reflection.PropertyInfo));
-			optimized.GetValue(default(global::UnityEngine.Collider));
-			optimized.SetValue(default(global::UnityEngine.Collider), default(bool));
-		}
-		
-		// UnityEngine.Collider.material
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_Collider_material()
-		{
-			global::UnityEngine.Collider target = default(global::UnityEngine.Collider);
-			global::UnityEngine.PhysicMaterial accessor = target.material;
-			target.material = default(global::UnityEngine.PhysicMaterial);
-			global::Ludiq.InstancePropertyAccessor<UnityEngine.Collider, UnityEngine.PhysicMaterial> optimized = new global::Ludiq.InstancePropertyAccessor<UnityEngine.Collider, UnityEngine.PhysicMaterial>(default(global::System.Reflection.PropertyInfo));
-			optimized.GetValue(default(global::UnityEngine.Collider));
-			optimized.SetValue(default(global::UnityEngine.Collider), default(global::UnityEngine.PhysicMaterial));
-		}
-		
-		// UnityEngine.Collider.name
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_Collider_name()
-		{
-			global::UnityEngine.Object target = default(global::UnityEngine.Object);
-			string accessor = target.name;
-			target.name = default(string);
-			global::Ludiq.InstancePropertyAccessor<UnityEngine.Object, string> optimized = new global::Ludiq.InstancePropertyAccessor<UnityEngine.Object, string>(default(global::System.Reflection.PropertyInfo));
-			optimized.GetValue(default(global::UnityEngine.Object));
-			optimized.SetValue(default(global::UnityEngine.Object), default(string));
-		}
-		
 		// UnityEngine.Collider.op_Equality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
 		public static void UnityEngine_Collider_op_Equality()
@@ -3629,40 +3507,6 @@ namespace Ludiq.Generated.Aot
 			global::Ludiq.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Ludiq.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
 			optimized.Invoke(null, arg0, arg1);
 			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.Collider.sharedMaterial
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_Collider_sharedMaterial()
-		{
-			global::UnityEngine.Collider target = default(global::UnityEngine.Collider);
-			global::UnityEngine.PhysicMaterial accessor = target.sharedMaterial;
-			target.sharedMaterial = default(global::UnityEngine.PhysicMaterial);
-			global::Ludiq.InstancePropertyAccessor<UnityEngine.Collider, UnityEngine.PhysicMaterial> optimized = new global::Ludiq.InstancePropertyAccessor<UnityEngine.Collider, UnityEngine.PhysicMaterial>(default(global::System.Reflection.PropertyInfo));
-			optimized.GetValue(default(global::UnityEngine.Collider));
-			optimized.SetValue(default(global::UnityEngine.Collider), default(global::UnityEngine.PhysicMaterial));
-		}
-		
-		// UnityEngine.Collider.tag
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_Collider_tag()
-		{
-			global::UnityEngine.Component target = default(global::UnityEngine.Component);
-			string accessor = target.tag;
-			target.tag = default(string);
-			global::Ludiq.InstancePropertyAccessor<UnityEngine.Component, string> optimized = new global::Ludiq.InstancePropertyAccessor<UnityEngine.Component, string>(default(global::System.Reflection.PropertyInfo));
-			optimized.GetValue(default(global::UnityEngine.Component));
-			optimized.SetValue(default(global::UnityEngine.Component), default(string));
-		}
-		
-		// UnityEngine.Collider.transform
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_Collider_transform()
-		{
-			global::UnityEngine.Component target = default(global::UnityEngine.Component);
-			global::UnityEngine.Transform accessor = target.transform;
-			global::Ludiq.InstancePropertyAccessor<UnityEngine.Component, UnityEngine.Transform> optimized = new global::Ludiq.InstancePropertyAccessor<UnityEngine.Component, UnityEngine.Transform>(default(global::System.Reflection.PropertyInfo));
-			optimized.GetValue(default(global::UnityEngine.Component));
 		}
 		
 		// UnityEngine.Collider2D.op_Equality
@@ -7303,6 +7147,18 @@ namespace Ludiq.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
+		// UnityEngine.SpriteRenderer.sprite
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_SpriteRenderer_sprite()
+		{
+			global::UnityEngine.SpriteRenderer target = default(global::UnityEngine.SpriteRenderer);
+			global::UnityEngine.Sprite accessor = target.sprite;
+			target.sprite = default(global::UnityEngine.Sprite);
+			global::Ludiq.InstancePropertyAccessor<UnityEngine.SpriteRenderer, UnityEngine.Sprite> optimized = new global::Ludiq.InstancePropertyAccessor<UnityEngine.SpriteRenderer, UnityEngine.Sprite>(default(global::System.Reflection.PropertyInfo));
+			optimized.GetValue(default(global::UnityEngine.SpriteRenderer));
+			optimized.SetValue(default(global::UnityEngine.SpriteRenderer), default(global::UnityEngine.Sprite));
+		}
+		
 		// UnityEngine.SurfaceEffector2D.op_Equality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
 		public static void UnityEngine_SurfaceEffector2D_op_Equality()
@@ -7896,6 +7752,18 @@ namespace Ludiq.Generated.Aot
 			global::Ludiq.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Ludiq.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
 			optimized.Invoke(null, arg0, arg1);
 			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.Transform.localPosition
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_Transform_localPosition()
+		{
+			global::UnityEngine.Transform target = default(global::UnityEngine.Transform);
+			global::UnityEngine.Vector3 accessor = target.localPosition;
+			target.localPosition = default(global::UnityEngine.Vector3);
+			global::Ludiq.InstancePropertyAccessor<UnityEngine.Transform, UnityEngine.Vector3> optimized = new global::Ludiq.InstancePropertyAccessor<UnityEngine.Transform, UnityEngine.Vector3>(default(global::System.Reflection.PropertyInfo));
+			optimized.GetValue(default(global::UnityEngine.Transform));
+			optimized.SetValue(default(global::UnityEngine.Transform), default(global::UnityEngine.Vector3));
 		}
 		
 		// UnityEngine.Transform.localScale
@@ -9211,6 +9079,15 @@ namespace Ludiq.Generated.Aot
 			float arg1 = default(float);
 			float arg2 = default(float);
 			new UnityEngine.Vector3(arg0, arg1, arg2);
+		}
+		
+		// UnityEngine.Vector3..ctor
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_Vector3_ctor_0()
+		{
+			float arg0 = default(float);
+			float arg1 = default(float);
+			new UnityEngine.Vector3(arg0, arg1);
 		}
 		
 		// UnityEngine.Vector3.back
