@@ -518,7 +518,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6433088844603599578, guid: e32566141933bfa4f811ac6408cad7ed, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"Timer_Duration","value":{"$content":30.0,"$type":"System.Single"},"$version":"A"},{"name":"Timer_Start_Delay","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"Camera_Speed","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"collection":{"$content":[{"name":"Timer_Duration","value":{"$content":45.0,"$type":"System.Single"},"$version":"A"},{"name":"Timer_Start_Delay","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"Camera_Speed","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e32566141933bfa4f811ac6408cad7ed, type: 3}
