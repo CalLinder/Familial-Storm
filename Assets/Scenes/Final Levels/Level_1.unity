@@ -196,6 +196,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Default_Level_Curtain
       objectReference: {fileID: 0}
+    - target: {fileID: 8224942789632111641, guid: 04d0760aa9996ca44a41f71f3e2c2db2, type: 3}
+      propertyPath: m_Pitch
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224942789632111647, guid: 04d0760aa9996ca44a41f71f3e2c2db2, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"Time_Before_Raise","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"},{"name":"Time_To_Raise","value":{"$content":1.5,"$type":"System.Single"},"$version":"A"},{"name":"Raise_Speed","value":{"$content":9.0,"$type":"System.Single"},"$version":"A"},{"name":"Lower_Curtain","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 8224942789632111650, guid: 04d0760aa9996ca44a41f71f3e2c2db2, type: 3}
       propertyPath: m_RootOrder
       value: 5

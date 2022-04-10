@@ -28,7 +28,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8224942789632111640}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.0001, y: -0.305, z: 0}
   m_LocalScale: {x: 1.6424557, y: 2.0261135, z: 1}
   m_Children: []
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Time_Before_Raise","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"Time_To_Raise","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"Raise_Speed","value":{"$content":6.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Time_Before_Raise","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"Time_To_Raise","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"Raise_Speed","value":{"$content":6.0,"$type":"System.Single"},"$version":"A"},{"name":"Lower_Curtain","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &8224942789632111646
 MonoBehaviour:
