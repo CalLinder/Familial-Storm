@@ -47,12 +47,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Platforms
-    uniqueID: 243050661
-    locked: 0
-  - name: Ground
-    uniqueID: 2027726981
-    locked: 0
   - name: Tutorial Text
     uniqueID: 1448245465
     locked: 0
@@ -61,6 +55,12 @@ TagManager:
     locked: 0
   - name: Clouds
     uniqueID: 4268413089
+    locked: 0
+  - name: Platforms
+    uniqueID: 243050661
+    locked: 0
+  - name: Ground
+    uniqueID: 2027726981
     locked: 0
   - name: Storm
     uniqueID: 2879919339
