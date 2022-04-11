@@ -16,7 +16,7 @@ TagManager:
   - UI
   - Platforms
   - Curtain
-  - 
+  - Rain
   - 
   - 
   - 
@@ -53,14 +53,26 @@ TagManager:
   - name: Ground
     uniqueID: 2027726981
     locked: 0
+  - name: Tutorial Text
+    uniqueID: 1448245465
+    locked: 0
   - name: Player
     uniqueID: 738679559
+    locked: 0
+  - name: Clouds
+    uniqueID: 4268413089
     locked: 0
   - name: Storm
     uniqueID: 2879919339
     locked: 0
+  - name: Rain
+    uniqueID: 208928663
+    locked: 0
   - name: UI
     uniqueID: 4290380033
+    locked: 0
+  - name: Curtain
+    uniqueID: 1177040369
     locked: 0
   - name: TOP
     uniqueID: 523726439
