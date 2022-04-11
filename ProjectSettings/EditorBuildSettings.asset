@@ -6,24 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Alpha_Temp_Scenes/Alpha_Main_Menu_Scene.unity
-    guid: ca3055f0886098643a3c2c6f555b862f
+    path: Assets/Scenes/Final Levels/Main_Menu.unity
+    guid: 27f71fc5441e4dd4fa1fc933847c1051
   - enabled: 1
-    path: Assets/Scenes/Loading_Scene.unity
-    guid: 32bc2a9beaf68f94580764f5a87992d5
+    path: Assets/Scenes/Final Levels/Select_Abilities.unity
+    guid: 2931c7f92f63caf4491015227eeb3c4a
   - enabled: 1
-    path: Assets/Scenes/Alpha_Temp_Scenes/Ability_Selection_Scene.unity
-    guid: 8c809cc858fc95a4c8149937cf61655f
+    path: Assets/Scenes/Final Levels/Ability_Unlocked.unity
+    guid: fba40371da22a82479daf1980d3d54ea
   - enabled: 1
-    path: Assets/Scenes/Alpha_Levels/Alpha_Level_1_Scene.unity
-    guid: 2a292e0013a34eb4286347e179b7de88
+    path: Assets/Scenes/Final Levels/Level_1.unity
+    guid: dfa7a226b93930a40a3e8360a1ff2cf9
   - enabled: 1
-    path: Assets/Scenes/Alpha_Levels/Alpha_Level_1_StormFloor_Scene.unity
-    guid: 9b28c2166b6072945855cd9e447fa13c
-  - enabled: 1
-    path: Assets/Scenes/Alpha_Temp_Scenes/Unlock_Ability_Scene.unity
-    guid: c45488c8ab2a8c74e93c5d44702797f1
-  - enabled: 1
-    path: Assets/Scenes/Alpha_Temp_Scenes/End_Credits_Alpha_Scene.unity
-    guid: 7e8126929d76e0a49b8eecf0c7f32fe1
+    path: Assets/Scenes/Final Levels/Level_2.unity
+    guid: fe971e1ec62dd834fadaeb75b83224e5
   m_configObjects: {}
