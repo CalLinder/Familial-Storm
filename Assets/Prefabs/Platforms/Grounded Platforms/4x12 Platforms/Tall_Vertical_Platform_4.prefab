@@ -3455,6 +3455,7 @@ GameObject:
   - component: {fileID: 7324938119715156888}
   - component: {fileID: 7324938119715156889}
   - component: {fileID: 7324938119715156890}
+  - component: {fileID: 8461353174168812637}
   m_Layer: 6
   m_Name: Tall_Vertical_Platform_4
   m_TagString: Platform
@@ -3469,7 +3470,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7324938119715156886}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 89.269424, y: -2.4179952, z: 0}
   m_LocalScale: {x: 2.7755425, y: 5.649725, z: 1}
   m_Children:
@@ -3601,6 +3602,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.92297816}
   m_EdgeRadius: 0
+--- !u!210 &8461353174168812637
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7324938119715156886}
+  m_Enabled: 1
+  m_SortingLayerID: 243050661
+  m_SortingLayer: 1
+  m_SortingOrder: 0
 --- !u!1 &7815228264104128452
 GameObject:
   m_ObjectHideFlags: 0

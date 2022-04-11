@@ -637,7 +637,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Timer_Duration","value":{"$content":113.9,"$type":"System.Single"},"$version":"A"},{"name":"Timer_Start_Delay","value":{"$content":4.0,"$type":"System.Single"},"$version":"A"},{"name":"Camera_Speed","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Timer_Duration","value":{"$content":113.9,"$type":"System.Single"},"$version":"A"},{"name":"Timer_Start_Delay","value":{"$content":2.5,"$type":"System.Single"},"$version":"A"},{"name":"Camera_Speed","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &1893693267596267168
 MonoBehaviour:

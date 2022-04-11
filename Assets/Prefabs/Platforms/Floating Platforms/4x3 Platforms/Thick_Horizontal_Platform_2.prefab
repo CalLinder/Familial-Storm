@@ -585,6 +585,7 @@ GameObject:
   - component: {fileID: 3544367863195112116}
   - component: {fileID: 3544367863195112117}
   - component: {fileID: 3544367863195112118}
+  - component: {fileID: 1211940175850131564}
   m_Layer: 6
   m_Name: Thick_Horizontal_Platform_2
   m_TagString: Platform
@@ -695,6 +696,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.99813676, y: 1}
   m_EdgeRadius: 0
+--- !u!210 &1211940175850131564
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3544367863195112122}
+  m_Enabled: 1
+  m_SortingLayerID: 243050661
+  m_SortingLayer: 1
+  m_SortingOrder: 0
 --- !u!1 &4803396895496496211
 GameObject:
   m_ObjectHideFlags: 0

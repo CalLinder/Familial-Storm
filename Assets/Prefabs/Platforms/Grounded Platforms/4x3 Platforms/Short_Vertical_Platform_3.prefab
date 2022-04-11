@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 25261165899360072}
   - component: {fileID: 25261165899360073}
   - component: {fileID: 25261165899360074}
+  - component: {fileID: 1927595797369807634}
   m_Layer: 6
   m_Name: Short_Vertical_Platform_3
   m_TagString: Platform
@@ -25,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 25261165899360070}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 60.39483, y: -4.61, z: 47.3604}
   m_LocalScale: {x: 2.779011, y: 1.3170521, z: 1}
   m_Children:
@@ -121,6 +122,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!210 &1927595797369807634
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25261165899360070}
+  m_Enabled: 1
+  m_SortingLayerID: 243050661
+  m_SortingLayer: 1
+  m_SortingOrder: 0
 --- !u!1 &719748903059485854
 GameObject:
   m_ObjectHideFlags: 0
