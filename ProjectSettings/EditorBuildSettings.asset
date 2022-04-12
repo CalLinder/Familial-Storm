@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Final Levels/Level_3.unity
     guid: 941d2e0b3ea710649bf76e7803a0962f
+  - enabled: 1
+    path: Assets/Scenes/Final Levels/Level_4.unity
+    guid: 9132ff9b449f9f849800f9fd4f953f2d
+  - enabled: 1
+    path: Assets/Scenes/Final Levels/Final_Animation.unity
+    guid: a67fcf9aefcd33042bac5c52fd40d71d
   m_configObjects: {}
